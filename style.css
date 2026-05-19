@@ -31,7 +31,7 @@ h2 {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 .card:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .card img {
@@ -60,21 +60,32 @@ h2 {
     margin: 8px 0;
 }
 
+/* BUTTON STYLE */
 .btn {
+    display: inline-block;
     margin-top: 15px;
     padding: 12px 25px;
     font-size: 16px;
-    border: none;
     border-radius: 8px;
     background: gold;
     color: black;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .btn:hover {
     background: orange;
     transform: scale(1.05);
+}
+
+/* GAME EMBED */
+iframe {
+    border-radius: 12px;
+    margin-top: 15px;
+    width: 100%;
+    background: white;
 }
 
 footer {
